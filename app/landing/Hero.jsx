@@ -28,7 +28,7 @@ export const Hero = (props) => {
                   href="#"
                 >
                   <span className="relative inline-flex items-center">
-                    hmmmmmm.....{" "}
+                    Coming soon{" "}
                     <span className="tracking-normal text-primary-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                       -&gt;
                     </span>
