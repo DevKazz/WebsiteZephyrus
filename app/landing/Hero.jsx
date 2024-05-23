@@ -47,7 +47,7 @@ export const Hero = (props) => {
               data-aos="fade-down"
               data-aos-delay="200"
             >
-              We are developers....
+              Team of Developers
             </p>
             <div
               className="flex flex-col items-center max-w-xs mx-auto gap-4 sm:max-w-none  sm:justify-center sm:flex-row sm:inline-flex"
@@ -59,7 +59,7 @@ export const Hero = (props) => {
                 href="#"
               >
                 {" "}
-                Soon......{" "}
+                Soon..{" "}
                 <ArrowRight className="w-3 h-3 tracking-normal text-primary-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1" />
               </Link>
             </div>
