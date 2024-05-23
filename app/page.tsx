@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Hero } from "@/app/landing/Hero"
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
+
 
 export const metadata: Metadata = {
   title: 'Zephyrus',
@@ -27,6 +29,7 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden max-w-screen">
       <Hero />
+      <Analytics/>
     </div>
   );
 }
