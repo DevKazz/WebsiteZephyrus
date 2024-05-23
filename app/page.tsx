@@ -3,11 +3,25 @@ import { Hero } from "@/app/landing/Hero"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Zephyrus",
-  description: "Team Of Developers",
-  // ... (other metadata properties like icons, Open Graph tags, etc.)
-};
-
+  title: 'Zephyrus',
+  description: 'Team of developers',
+  openGraph: {
+      title: 'Zephyrus',
+      description: 'Team of developers',
+      url: 'https://zephyrusdev.com/',
+      siteName: 'Zephyrus',
+      images: [
+          {
+              url: 'https://zephyrusdev.com/opengraph-image.jpg', // Replace with your image path
+              width: 800,
+              height: 600,
+              alt: 'Zephyrus Logo',
+          },
+      ],
+      locale: 'en_US',
+      type: 'website',
+  },
+}
 
 export default function Home() {
   return (

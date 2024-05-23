@@ -4,12 +4,28 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  icons: { 
-    icon: '/favicon.ico'
-  },
-  title: "Zephyrus",
-  description: "Team of developers",
+  export const metadata: Metadata = {
+    title: 'Zephyrus',
+    description: 'Team of developers',
+    icons: { 
+      icon: '/favicon.ico'
+    },
+    openGraph: {
+        title: 'Zephyrus',
+        description: 'Team of developers',
+        url: 'https://zephyrusdev.com/',
+        siteName: 'Zephyrus',
+        images: [
+            {
+                url: 'https://zephyrusdev.com/opengraph-image.jpg', // Replace with your image path
+                width: 800,
+                height: 600,
+                alt: 'Zephyrus Logo',
+            },
+        ],
+        locale: 'en_US',
+        type: 'website',
+    },
 };
 
 export default function RootLayout({
